@@ -1,6 +1,7 @@
 ecc: src/main.rs
 
 test: ecc
+	cargo build
 	./test.sh
 
 clean:
